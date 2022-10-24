@@ -54,8 +54,12 @@ For this you must install
 ---------------------------------------------------------------------
 
 pip install missingno
+
 pip install hdbscan
+
 pip install umap-learn
+
 pip install sentence-transformers
+
 pip3 install git+https://github.com/huggingface/transformers
 
