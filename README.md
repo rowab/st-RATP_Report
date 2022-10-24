@@ -6,7 +6,8 @@ The best dashboard that can guide you for your analysis on the tweets related to
 This dashboard will show you the analysis done on the tweets since the last day and classify them by feelings and topics.
 
 /!\Very important note: When you are in the machine learning section, an embedding step will be triggered and this step is quite long (it can last between 40min and 1h30). You will have to let the page load itself.
-![image](https://user-images.githubusercontent.com/73355151/197519946-405b0e49-4236-4a2a-a8f0-0ffc82bb3754.png)
+![image](https://user-images.githubusercontent.com/73355151/197520347-e54bd58f-a764-444b-af74-fb380c88cf42.png)
+
 
 
 To start with, you will need to install some libraries:
@@ -48,9 +49,9 @@ import umap
 from sklearn.decomposition import PCA
 import plotly.graph_objs as go
 from sklearn.cluster import KMeans 
----------------------------------------------------------------------
 
 For this you must install 
+---------------------------------------------------------------------
 
 pip install missingno
 pip install hdbscan
